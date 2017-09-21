@@ -5,7 +5,6 @@ const getProductionDeps = require('./getProductionDeps')
 const config = {
   outputFile: path.resolve('.', '.upignore'),
   whitelist: [
-    '.env',
     '.babelrc',
     'build',
     'babel-polyfill'

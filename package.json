@@ -1,6 +1,6 @@
 {
   "name": "lambdapack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Package your AWS Lambda efficiently",
   "main": "index.js",
   "scripts": {
