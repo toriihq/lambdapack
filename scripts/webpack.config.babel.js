@@ -45,5 +45,6 @@ module.exports = ({ entry }) => ({
       minimize: false,
       debug: false
     })
-  ]
+  ],
+  devtool: 'source-map'
 })
