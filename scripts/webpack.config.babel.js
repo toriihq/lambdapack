@@ -34,7 +34,9 @@ module.exports = ({ entry }) => ({
     ]
   },
   plugins: [
-    new NodemonPlugin(),
+    new NodemonPlugin({
+      nodeArgs: process.env.NODE_DEBUG_OPTION ? [ process.env.NODE_DEBUG_OPTION ] : []
+    }),
     new Webpack.NoEmitOnErrorsPlugin(),
     new Webpack.DefinePlugin({
       'process.env.WEBPACK': true
